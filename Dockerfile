@@ -1,4 +1,4 @@
 FROM openjdk:21
 EXPOSE 8080
-ADD target/docker-init-pipeline.jar docker-init-pipeline.jar
-ENTRYPOINT ["java","-jar","docker-init-pipeline.jar"]
+ADD target/second-init-pipeline.jar second-init-pipeline.jar
+ENTRYPOINT ["java","-jar","second-init-pipeline.jar"]
